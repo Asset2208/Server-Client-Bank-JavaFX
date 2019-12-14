@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="450.0" prefWidth="700.0" style="-fx-background-color: #F5F6CE;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.SignUpPageController">
+   <children>
+      <Text fill="#9e1212" layoutX="200.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Registration" wrappingWidth="314.0">
+         <font>
+            <Font name="Imprint MT Shadow" size="56.0" />
+         </font>
+      </Text>
+      <Button fx:id="backBtn" layoutX="8.0" layoutY="410.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="78.0" style="-fx-background-color: transparent; -fx-text-fill: black; -fx-border-width: 2px 2px 2px 2px; -fx-border-color: black; -fx-border-radius: 100;" text="BACK">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font>
+      </Button>
+      <TextField fx:id="loginField" layoutX="131.0" layoutY="106.0" promptText="Login">
+         <font>
+            <Font size="15.0" />
+         </font></TextField>
+      <TextField fx:id="nameField" layoutX="131.0" layoutY="268.0" promptText="First name">
+         <font>
+            <Font size="15.0" />
+         </font></TextField>
+      <TextField fx:id="surnameField" layoutX="131.0" layoutY="314.0" promptText="Last Name">
+         <font>
+            <Font size="15.0" />
+         </font></TextField>
+      <DatePicker fx:id="dateOfBirth" layoutX="449.0" layoutY="106.0" prefHeight="31.0" prefWidth="179.0" promptText="Date of birth" />
+      <ChoiceBox fx:id="cityChoiceBox" layoutX="451.0" layoutY="158.0" prefHeight="31.0" prefWidth="168.0" />
+      <TextField fx:id="telNumberField" layoutX="451.0" layoutY="221.0" promptText="Telephone number">
+         <font>
+            <Font size="15.0" />
+         </font></TextField>
+      <TextField fx:id="iinField" layoutX="451.0" layoutY="280.0" promptText="IIN">
+         <font>
+            <Font size="15.0" />
+         </font></TextField>
+      <Text layoutX="46.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login" wrappingWidth="56.443359375">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="33.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="75.0" layoutY="331.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text layoutX="27.0" layoutY="214.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Verify    Password" wrappingWidth="89.16015625">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="43.0" layoutY="288.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name" wrappingWidth="56.443359375">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="33.0" layoutY="333.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Surname">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="350.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Birthday">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="392.0" layoutY="178.0" strokeType="OUTSIDE" strokeWidth="0.0" text="City">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="337.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tel. number">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="392.0" layoutY="300.0" strokeType="OUTSIDE" strokeWidth="0.0" text="IIN">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+      <Button fx:id="registrateBtn" layoutX="298.0" layoutY="370.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="105.0" style="-fx-background-color: transparent; -fx-text-fill: black; -fx-border-width: 2px 2px 2px 2px; -fx-border-color: black; -fx-border-radius: 100;" text="Registrate">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font>
+      </Button>
+      <PasswordField fx:id="passwordField" layoutX="131.0" layoutY="144.0" promptText="Password">
+         <font>
+            <Font size="15.0" />
+         </font></PasswordField>
+      <PasswordField fx:id="rePasswordField" layoutX="131.0" layoutY="213.0" promptText="Verify password">
+         <font>
+            <Font size="15.0" />
+         </font></PasswordField>
+   </children>
+</AnchorPane>

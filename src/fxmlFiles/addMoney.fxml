@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="450.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.AddMoneyController">
+    <children>
+        <ImageView fitHeight="450.0" fitWidth="700.0">
+            <image>
+                <Image url="@../images/adminBackground.jpg" />
+            </image>
+        </ImageView>
+        <Button fx:id="backBtn" layoutX="19.0" layoutY="385.0" mnemonicParsing="false" opacity="0.91" prefHeight="38.0" prefWidth="96.0" style="-fx-background-color: #0B0B3B; -fx-background-radius: 100; -fx-text-fill: white;" text="BACK">
+            <font>
+                <Font name="System Bold" size="24.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+      <ImageView fitHeight="79.0" fitWidth="84.0" layoutY="7.0">
+         <image>
+            <Image url="@../images/user.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="230.0" layoutY="15.0" opacity="0.71" prefHeight="64.0" prefWidth="294.0" text="Add money" textFill="#0d0d0d">
+         <font>
+            <Font name="Eras Medium ITC" size="54.0" />
+         </font>
+      </Label>
+      <TextField fx:id="moneySumField" layoutX="343.0" layoutY="146.0" prefHeight="44.0" prefWidth="145.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <Label layoutX="77.0" layoutY="140.0" opacity="0.71" prefHeight="57.0" prefWidth="237.0" text="Sum of money" textFill="#0d0d0d">
+         <font>
+            <Font name="Eras Medium ITC" size="35.0" />
+         </font>
+      </Label>
+      <Button fx:id="addMoneyBtn" layoutX="274.0" layoutY="247.0" mnemonicParsing="false" opacity="0.91" prefHeight="38.0" prefWidth="96.0" style="-fx-background-color: #0B0B3B; -fx-background-radius: 100; -fx-text-fill: white;" text="ADD">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+    </children>
+</AnchorPane>
